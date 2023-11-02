@@ -1,0 +1,67 @@
+#container{
+    background-color: #b9d3d3;
+    width: 1014px;
+    margin: auto;
+    height: 386px;
+    border: 2px solid #736a68a6;
+    border-radius: 10px;
+}
+#titleHead{color: black}
+
+.TaskForm{
+    text-align: center;
+    background: white;
+    width: 751px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #a2afc0;
+    padding: 8px;
+    border-radius: 9px;
+}
+div#todoListBox, .comDiv {
+    width: 350px;
+    background: white;
+    float: left;
+    margin-left: 86px;
+    margin-top: 36px;
+    border: 1px solid #a5a3a3;
+}
+
+.comDiv{
+    float: right;
+    margin-right: 86px;
+    width: 300px;
+}
+
+
+#items li, .comDiv li{
+    margin-top: 20px;
+}
+h2{
+    color:grey;
+    text-align: center;
+}
+
+#new-task{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.deleteTask{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    padding: 5px;
+}
+
+#addTask{
+    cursor: pointer;
+    background-color: green;
+    border-radius: 3px;
+    border-color: gray;
+    color: white;
+    padding: 3px;
+}
